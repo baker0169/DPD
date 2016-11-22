@@ -1,8 +1,8 @@
-function test()
+function funtionNameHere()
 {
 	var width = 1024;
 	var height = 768;
-	var ctrl = d3.select(".newsletter").append("svg").attr("width", width).attr("height", height);
+	var ctrl = d3.select(".className").append("svg").attr("width", width).attr("height", height);
 	d3.csv("https://pecu.github.io/D3/stocks.csv",
 	      function(data) { console.log(data); });
 	d3.csv("https://pecu.github.io/D3/HistoricalQuotes.csv", 
